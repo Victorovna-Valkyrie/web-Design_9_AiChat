@@ -1,0 +1,16 @@
+server:
+  port: 9010
+
+knife4j:
+  enable: true
+  openapi:
+    title: aichat的api文档
+    group:
+      default:
+        group-name: ai脑筋急转弯
+        api-rule: package
+        api-rule-resources:
+          - org.ybz.aichat.controller
+
+ai:
+  apiKey: 8d7a3f21-b456-4c78-9a12-d98fcf2e5b6a
